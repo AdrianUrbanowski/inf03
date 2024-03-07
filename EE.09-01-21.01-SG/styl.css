@@ -1,0 +1,52 @@
+#banner {
+    color: white;
+    text-align: center;
+    height: 370px;
+}
+
+#pannel-main {
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+#pannel-left {
+    background-color: whitesmoke;
+    width: 70%;
+    height: 505px;
+    float: left;    
+}
+
+#pannel-right {
+    background-color: whitesmoke;
+    width: 30%;
+    height:505px;
+    text-align: right;
+    float: right;
+}
+
+body {
+    font-style: Tahoma;
+    background-color: crimson;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 7px;
+    font-variant: capitaliz;
+}
+
+/* Styl CSS witryny internetowej
+Cechy formatowania CSS:
+‒ Dla bloku banera: biały kolor czcionki, wyrównanie tekstu do środka, wysokość 370 px
+‒ Dla pojedynczego bloku z informacją o rozgrywkach: biały kolor czcionki, wyrównanie tekstu
+do środka, szerokość 200 px, marginesy zewnętrzne 10 px, obramowanie: 1 px, linia ciągła, kolor
+czarny, zaokrąglenie rogów obramowania 10 px
+‒ W momencie najechania kursorem na pojedynczy blok z informacją o rozgrywkach, kolor jego ramki
+zmienia się na biały
+‒ Dla bloku głównego: kolor tła WhiteSmoke, wysokość 50 px
+‒ Dla bloku lewego: kolor tła WhiteSmoke, szerokość 70%, wysokość 230 px
+‒ Dla bloku prawego: kolor tła WhiteSmoke, szerokość 30%, wysokość 230 px, wyrównanie tekstu
+do prawej strony
+‒ Dla znacznika body: krój czcionki Tahoma, kolor tła Crimson
+‒ Dla znacznika nagłówka drugiego stopnia: wyrównanie tekstu do środka, odległość między literami
+7 px, tekst napisany kapitalikami (capitalize)  */
