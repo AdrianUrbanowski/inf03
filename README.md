@@ -18,3 +18,6 @@ Repozytorium dotyczące kwalifikacji INF.03
 
 #Ściągnięcie ostatnich zmian z repo github.com
 `git pull`
+
+#Wylistowanie gałęzi
+`git branch`
