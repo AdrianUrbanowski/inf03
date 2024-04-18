@@ -27,8 +27,8 @@
 
                 while($rekord = mysqli_fetch_array($wynik_zapytania)) {
                     echo '<tr>';
-                        echo '<td>' . $rekord['nazwa'] . '</td>';
                         echo '<td>' . $rekord['id'] . '</td>';
+                        echo '<td>' . $rekord['nazwa'] . '</td>';
                         echo '<td>' . $rekord['cena'] . '</td>';
                     echo '</tr>';
                 }
