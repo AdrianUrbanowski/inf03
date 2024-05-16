@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karty wędkarskie</title>
+    <link rel="stylesheet" href="styl_1.css">
+</head>
+<body>
+    <section id="banner">
+        <h2>Zgłoszenie na kartę wędkarską</h2>
+    </section>
+    <section id="main">
+        <h4>Formularz - karta wędkarska</h4>
+        <form action="zapisz.php" method="post">
+            imię: <br>
+            <input type="text" name="first_name"><br>
+            nazwisko: <br>
+            <input type="text" name="last_name"><br>
+            adres: <br>
+            <input type="text" name="address" size="30"><br>
+
+            <input type="reset" value="CZYŚĆ">
+            <input type="submit" value="ZAPISZ">
+        </form>
+    </section>
+    <section id="left">
+        <h4>Typy łowisk</h4>
+        <ul>
+            <li>Zalewy</li>
+            <li>Stawy</li>
+            <li>Jeziora</li>
+            <li>Rzeki</li>
+        </ul>
+    </section>
+    <section id="middle">
+        <img src="wedka.jpg" alt="karta wędkarska">
+    </section>
+    <section id="right">
+        <p>Stronę przygotował: 782947892374</p>
+        <a href="http://www.kartawedkarska.pl/">Karta wędkarska</a>
+    </section>
+    
+</body>
+</html>
+
+<!-- Składa się ze strony o nazwie karta.html oraz skryptu zapisz.php. Poniższe wymagania dotyczą tylko
+pliku karta.html
+ Zawartość bloku lewego:
+ Nagłówek czwartego stopnia o treści: „Typy łowisk”
+ Lista punktowana (nieuporządkowana) zawierająca elementy: Zalewy, Stawy, Jeziora, Rzeki  -->
